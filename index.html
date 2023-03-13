@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+<title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="logo">
+            <img src="./assets/svg/logo1.svg" alt="logo" />
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#video" class="nav-link">Video</a>
+              </li>
+              <li class="nav-item">
+                <a href="#price" class="nav-link">Price</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+         
+            <a href="#lang" class="nav-link switch-lng" >en / ru</a>
+     
+            <a href="#" class="burger-button">
+              <span class="burger-lines "></span>
+            </a>
+            <nav class="burger-nav">
+              <a href="#skills" class="burger-link">Skills</a>
+              <a href="#portfolio" class="burger-link">Portfolio</a>
+              <a href="#video" class="burger-link">Video</a>
+              <a href="#price" class="burger-link">Price</a>
+              <a href="#contacts" class="burger-link">Contacts</a>
+            </nav>
+          </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="section-hero">
+          <div class="hero-container">
+            <h1 class="hero-title">Alexa Rise</h1>
+            <p class="hero-text">
+              Save sincere emotions, romantic feelings and happy moments of life
+              together with professional photographer Alexa Rise
+            </p>
+            <form>
+              <button class="button btn-hire">Hire me</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="section-skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-item">
+              <li class="camera">
+                <img src="assets/svg/camera1.svg" alt="camera-logo" />
+                <h3 class="item-title">Digital photography</h3>
+                <p class="description">
+                  High-quality photos in the studio and on the nature
+                </p>
+              </li>
+              <li class="video-shooting">
+                <img src="assets/svg/video1.svg" alt="video-logo" />
+                <h3 class="item-title">Video shooting</h3>
+                <p class="description">
+                  Capture your moments so that they always stay with you
+                </p>
+              </li>
+              <li class="retouch">
+                <img src="assets/svg/image1.svg" alt="retouch-logo" />
+                <h3 class="item-title">Retouch</h3>
+                <p class="description">
+                  I strive to make photography surpass reality
+                </p>
+              </li>
+              <li class="audio">
+                <img src="assets/svg/mic1.svg" alt="mic-logo" />
+                <h3 class="item-title">Audio</h3>
+                <p class="description">
+                  Professional sounds recording for video, advertising,
+                  portfolio
+                </p>
+              </li>
+            </ul>
+        </section>
+
+        <section class="section-portfolio" id="portfolio">
+            <h2 class="section-title portfolio-title">Portfolio</h2>
+            <div class="btn ">
+            
+                <button class="button portfolio-btn" data-season="winter">Winter</button>
+                <button class="button portfolio-btn" data-season="spring">Spring</button>
+              
+                <button class="button portfolio-btn" data-season="summer">Summer</button>
+              
+                <button class="button portfolio-btn" data-season="autumn">Autumn</button>
+             
+            </div>
+            <div class="photos">
+              <img src="./assets/img/portfolio-img.jpg" alt="photo" class="portfolio-image" />
+              <img src="./assets/img/portfolio-img(1).jpg" alt="photo" class="portfolio-image"/>
+              <img src="./assets/img/portfolio-img(2).jpg" alt="photo" class="portfolio-image"/>
+              <img src="./assets/img/portfolio-img(3).jpg" alt="photo" class="portfolio-image"/>
+              <img src="./assets/img/portfolio-img(4).jpg" alt="photo" class="portfolio-image"/>
+              <img src="./assets/img/portfolio-img(5).jpg" alt="photo" class="portfolio-image"/>
+            </div>
+        </section>
+
+        <section class="section-video" id="video">
+            <h2 class="section-title">Video</h2>
+            <div class="video">
+                          <button class="play-btn">
+                <img
+                  src="./assets/svg/Play_hover.svg"
+                  alt="video-hover"
+                  class="play-button"
+                />
+              </button>
+            </div>
+        </section>
+
+        <section class="section-price" id="price">
+          <h2 class="section-title">Price</h2>
+          <div class="price-items">
+            <div class="standard">
+              <ul>
+                <li class="rate">Standard</li>
+                <li class="price">500 $</li>
+                <li>One location</li>
+                <li>120 photos in color</li>
+                <li>12 photos in retouch</li>
+                <li>Readiness 2-3 weeks</li>
+                <li>Make up, visage</li>
+              </ul>
+              <form>
+                <button class="button btns order-shooting">Order-shooting</button>
+              </form>
+            </div>
+            <div class="premium">
+              <ul>
+                <li class="rate">Premium</li>
+                <li class="price">700 $</li>
+                <li>One or two locations</li>
+                <li>200 photos in color</li>
+                <li>20 photos in retouch</li>
+                <li>Readiness 1-2 weeks</li>
+                <li>Make up, visage</li>
+              </ul>
+              <form>
+                <button class="button btns order-shooting">Order-shooting</button>
+              </form>
+            </div>
+            <div class="gold">
+              <ul>
+                <li class="rate">Gold</li>
+                <li class="price">1000 $</li>
+                <li>Three locations or more</li>
+                <li>300 photos in color</li>
+                <li>50 photos in retouch</li>
+                <li>Readiness 1 week</li>
+                <li>Make up, visage, hairstyle</li>
+              </ul>
+              <form>
+                <button class="button btns order-shooting">Order-shooting</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-contacts" id="contacts">
+          <div class="forms">
+            <h2 class="contact-title">Contact me</h2>
+            <form action="#" method="get" class="info">
+              <input type="email" placeholder="E-mail" />
+              <input type="tel" placeholder="Phone" />
+              <textarea placeholder="Message"></textarea>
+            </form>
+          </div>
+          <form>
+            <button class="button send">Send message</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+      <div class="github">
+        <p>©</p>
+        <p>2022</p>
+        <a href="https://github.com/shishel-zaitcevich">github</a>
+      </div>
+
+      <div class="rs">
+        <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+      </div>
+      <ul class="icons">
+        <li>
+          <a href="https://www.instagram.com/">
+            <img src="assets/svg/inst1.svg" alt="inst" class="inst" />
+          </a>
+        </li>
+        <li>
+          <a href="https://ru-ru.facebook.com/">
+            <img src="assets/svg/fb1.svg" alt="fb" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/">
+            <img src="assets/svg/Vector(1).svg" alt="pinterest" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/?lang=ru">
+            <img src="assets/svg/Vector.svg" alt="twitter" />
+          </a>
+        </li>
+      </ul>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
